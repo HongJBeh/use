@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 18, 2023, 4:48:08 PM
+    Author     : chang
+*/
+body, table, select, input{
+    font: 14pt Calibri;
+}
+body{
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    background-color: #d9a7c7;
+    padding: 20px;
+}
+form{
+    border: 1px solid red;
+    padding: 50px;
+    width: 300px;
+    margin: auto;
+}
+input[type=text], input[type=password]{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 89%;
+}
+input[type=submit]{
+    background-color: pink;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: lightpink;
+}
+.log{
+    padding: 16px;
+    background-color:white;
+}
+p.psw{
+    float: right;
+    padding-top: 16px;
+}

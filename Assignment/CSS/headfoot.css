@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 Mar 2023, 1:01:27 am
+    Author     : USER
+*/
+body, table, select, input{
+    font: 14pt Calibri;
+}
+.navbar{
+    background-color: pink;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: hotpink ;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: hotpink;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: lightpink;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search-box{
+    padding: 10px;
+    border: 1px solid magenta;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search-button{
+    background-color: plum;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+footer{
+    background-color: pink;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.foot{ 
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.abc{
+    width: calc(33.33% - 30px);
+    margin-right: 30px;
+}
+
+h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.facebook {
+    background: rgb(59, 89, 152);
+    color: white;
+}
+.instagram {
+    background: linear-gradient(180deg, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
+    color: white;
+}
+.whatsapp{
+    background: rgb(37, 211, 102);
+    color: white;
+}

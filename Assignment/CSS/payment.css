@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 Mar 2023, 9:49:02 pm
+    Author     : USER
+*/
+
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0pt;
+}
+
+h2{
+  color:black;
+  background-color:#d9a7c7 ;
+  font-size: 20pt;
+  border-radius: 50px;
+  text-align: center;
+}
+
+form{
+  width: 600px;
+  margin:80px auto 0;
+  margin-bottom: 80px;
+  padding: 80px;
+  border-radius:50px;
+  background: #e0e0e0;
+  box-shadow:  30px 30px 60px #bebebe,
+             -30px -30px 60px #ffffff;
+}
+
+.information,group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-group{
+    gap: 5px;
+}
+.group label{
+    font-size: 14px;
+    color: #242424;
+    font-weight: bold;
+}
+.group input{
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color:#f2f2f2;
+}
+.group input:focus {
+    outline: 2px solid #242424;
+    background-color: transparent;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #20e3b2;
+}
+
+
+
+
+
+
+

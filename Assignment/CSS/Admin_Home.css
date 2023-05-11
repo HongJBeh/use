@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 8, 2023, 1:27:02 PM
+    Author     : USER
+*/
+
+body{
+    background-color: gainsboro;
+}
+
+/*Add Event*/
+.btn_AMDEvent{
+    color: black;
+    border: 0.5px solid black;
+}
+
+/*Show Event*/
+table.ShowEvent{
+    border: 1px solid black;
+    color:black;
+}
+
+.btn{
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-top: -5%;
+}

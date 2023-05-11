@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 9, 2023, 10:27:43 PM
+    Author     : chang
+*/
+.wa, .cha, .ga {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 7px;
+}
+.goo{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 4%;
+}

@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 Mar 2023, 12:15:42 am
+    Author     : USER
+*/
+body, table, select, input{
+    font: 14pt Calibri;
+}
+h1{
+    text-align: center;
+    background-color: pink;
+    padding: 50px;
+}
+h2{
+    font: 14pt Calibri;
+}
+
+form{
+    border: 1px solid black;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+}
+input[type=text], input[type=mail]{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: blue;
+}
+input[type=button]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: blue;
+}
+
+

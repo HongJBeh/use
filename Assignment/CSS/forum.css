@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 30, 2023, 12:30:52 AM
+    Author     : USER
+*/
+html{
+    min-height: 768px;
+}
+
+.forums{
+  font-style: italic;
+}
+
+.forumstitle {
+    text-align: center ;
+    background-color: #d9a7c7;
+    width: auto;
+    margin: 0px;
+}
+
+div.forumAdmin{
+    position: sticky;
+    top: 0;
+    background-color: lightsteelblue;
+}
+
+div.forumAdmin img{
+    width: 15px;
+}
+
+div.forumAdmin li{
+    display: inline;
+    margin: 10px;
+}
+
+div.forums img{
+    height: 200px;
+    width: 300px;
+    display: block;
+}
+
+.forumstable {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.forumstable a{
+    color: black;
+    text-decoration: none;
+}
+
